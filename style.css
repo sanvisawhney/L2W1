@@ -1,0 +1,442 @@
+#brand_name {
+    font-family: 'Archivo', sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+#logo{
+    height: 70px;
+    width: 80px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+#btn_log-in{
+    margin-left: 1000px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#btn_sign-up{
+    background-color: rgb(0, 0, 0);
+    color: #FFFFFF;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-right: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+#btn_sign-up :hover{
+    background-color: #FFFFFF;
+    color: black;
+}
+
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-right: 50px;
+}
+
+.container{
+    display: flex;
+}
+
+.heading{
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+image.png{
+    width: 100px;
+}
+
+p{
+    font-family: cursive;
+    color: rgb(75, 74, 74);
+}
+
+#start_explore{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border: 2px solid rgb(46, 46, 46);
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.card{
+    box-shadow: 0 100px 100px 0 rgb(207, 207, 207);
+    width: 700px;
+    height: 400px;
+    margin-left: 450px;
+    color: black;
+}
+
+.line{
+    margin: 8px auto;
+    background-color: black;
+    width: 100px;
+    height: 5px;
+    margin-bottom: 50px;
+}
+
+#class{
+    width: 300px;
+    height: 200px;
+    margin-left: 400px;
+    opacity: 100;
+}
+
+#classes{
+    background-color: #302e2e;
+    border: 2px solid #302e2e;
+    padding: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.content{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+.play_app{
+    display: flex;
+    margin-top: 50px;
+}
+
+#play_store{
+    width: 200px;
+    height: 60px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#app_store{
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#app{
+    margin-left: 150px;
+    margin-top: 200px;
+    display: flex;
+}
+
+#mobile{
+    width: 870px;
+    height: 700px;
+    margin-left: 150px;
+}
+
+.cards{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+#subject{
+    width: 480px;
+    height: 360px;
+    margin-top: 15px;
+}
+
+.card2{
+    height: 500px;
+    width: 650px;
+    box-shadow: 0 6px 8px 0 gray;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+}
+
+.card3{
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 6px 8px 0 gray;
+    text-align: center;
+    border: 2px solid gray;
+    margin-left: 470px;
+    margin-right: 340px;
+    background-color: white;
+}
+
+.card4{
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 6px 8px 0 gray;
+    text-align: center;
+    border: 2px solid gray;
+    margin-right: 100px;
+    background-color: white;
+}
+
+.cards2{
+    display: flex;
+    font-family: sans-serif;
+}
+
+.sub_6{
+    margin-left: 400px;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 50px;
+    color: black;
+}
+
+#kon_2{
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(63, 63, 63);
+    font-weight: 700;
+    margin-left: 430px;
+    margin-bottom: 50px;
+}
+
+
+#kon_3{
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(63, 63, 63);
+    font-weight: 700;
+}
+
+#login_page{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://w0.peakpx.com/wallpaper/896/270/HD-wallpaper-summer-sundown-beach-palm-sunset-sky-branch-sea.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    background-position: center;
+
+}
+
+.login_box{
+    width: 320px;
+    height: 420px;
+    background-color: #000000;
+    color: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+#avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login_box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login_box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login_box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login_box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.login_box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: #fb2525;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login_box input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #ffc107;
+    color: #000000;
+}
+
+.login_box a{
+    text-decoration: none;
+    font-size: 12px;
+    color: darkgrey;
+}
+
+.login_box a:hover{
+    color: #ffc107;
+}
+
+#signup{
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+    font-size: 16px;
+    color: #777;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#loginbox{
+    position: relative;
+    margin: 5% auto;
+    height: 400px;
+    width: 600px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.left-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+
+#loginbox h1{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+#loginbox input[type="text"],
+#loginbox input[type="password"]{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+#loginbox input[type="submit"]{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2 ease;
+    cursor: pointer;
+}
+
+#loginbox input[type="submit"]:hover,
+#loginbox input[type="submit"]:focus{
+    background-color: #ff5722;
+    transition: 0.2 ease;
+}
+
+.right-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1614851099362-9adf73ccebe9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29sb3JmdWwlMjBsaWdodGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.or{
+    position: absolute;
+    top: 180px;
+    left: 280px;
+    width: 40px;
+    height: 40px;
+    background-color: #efefef;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    text-align: center;
+}
+
+.right-box .signinwith{
+    display: block;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+button.social{
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+    background-color: black;
+}
